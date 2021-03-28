@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes</title>
+    <style>
+        table{
+            width: 100%;
+        }
+        table th td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th td{
+            padding: 15px;
+            text-align: left;
+        }
+        #t01 th{
+            background-color:blue;
+            color: white;
+        }
+        #t01 tr{
+            background-color: tomato;
+        }
+        .titulo span{
+            font-size: 100%;
+            color: red;
+        }
+        .titulo{/*ENcabezado*/
+            background-color: teal;
+            color: yellow;
+            margin: 50 auto;
+        }
+        .main{
+            text-align: center;
+        }
+        
+        .VM {
+            text-align-last: center;
+        }
+        p.Imp {
+            color: lawngreen;
+            text-align-last: auto;
+        }
+
+        #C1 {
+            text-justify: distribute;
+            color: red;
+        }
+
+        .la {
+            text-decoration-line: overline;  
+        }
+
+        .ts {
+            text-shadow: 2px 2px 5px red;
+        }
+
+        .tl {
+            text-decoration-line: line-through;
+        }
+
+        .tm {
+            text-transform: uppercase;
+        }
+        [class|=sub]{
+            background-color: blue;
+            margin: 100 auto;
+        }
+        a[target]{
+            background-color: cadetblue;
+        }
+
+        p:first-child{
+            color: darkblue;
+        }
+
+        ::marker{
+            color: darkgreen;
+            Font-size: 40px;
+        }
+        p.ur::after{
+            content: icon;
+        }
+    </style>
+    <script> 
+    
+    </script>
+</head>
+<body>
+    <a href="https://applicantes.com/principiantes-como-jugar-videojuegos/">
+        <img src="Img/antstream-juegos-retro.jpg" alt="Videojuegos" width="300"
+         height="300">
+    </a>
+
+    <a href="https://concepto.de/base-de-datos/">
+        <img src="Img/bd.jpg" alt="DataBase" style="float:right; width: 300px;height: 300px;"
+    </a>
+    <div>
+        <p><a href="#C8">Salta al Capitulo 8</a></p>
+        <p><a href="https://www.elmundo.es/quijote/capitulo.html?cual=8 #C8">Pagina Capitulo 8</a></p>
+    </div>
+   
+    <h2 id="C1">Capitulo 1</h2>
+    <p class="Imp">Este es el capitulo 1</p>
+    <h2 id="C2">Capitulo 2</h2>
+    <p>Este es el capitulo 2</p>
+    <h2 id="C3">Capitulo 3</h2>
+    <p>Este es el capitulo 3</p>
+    <h2 id="C4">Capitulo 4</h2>
+    <p>Este es el capitulo 4</p>
+    <h2 id="C5">Capitulo 5</h2>
+    <p>Este es el capitulo 5</p>
+    <h2 id="C6">Capitulo 6</h2>
+    <p>Este es el capitulo 6</p>
+    <h2 id="C7">Capitulo 7</h2>
+    <p>Este es el capitulo 7</p>
+    <h2 id="C8">Capitulo 8</h2>
+    <p>Este es el capitulo 8</p>
+    <h2 id="C9">Capitulo 9</h2>
+    <p>Este es el capitulo 9</p>
+    <h2 id="C10">Capitulo 10</h2>
+    <p>Este es el capitulo 10</p><br><br>
+
+
+    <h1>Tabla</h1>
+    <table id="t01">
+    <caption>Información</caption>
+    <tr>
+        <th>Name</th>
+        <th colspan="Number">Number</th>
+        <th>email</th>
+    </tr>
+    <tr>
+        <td>Angel</td>
+        <td>5587225206</td>
+        <td>angel@gmail.com</td>
+    </tr>
+    </table>
+
+    <h2>Lista Transportes</h2>
+    <ul style="list-style-type: square;">
+        <li>Carros</li>
+        <li>Bicicletas</li>
+        <li>Aviones</li>
+        <li>Motos</li>
+    </ul>
+    <h2>Lista Videojuegos</h2>
+    <ul style="list-style-type: unset;">
+        <li>Call Of Duty</li>
+        <li>Mario Bros</li>
+        <li>Grand theft auto</li>
+        <li>Motos</li>
+    </ul>
+    <h2>Lista Comida</h2>
+    <ol type="i" start="10">
+        <li>Pescado</li>
+        <li>Huevos</li>
+        <li>Jamón</li>
+
+    </ol>
+    
+    <div>
+        <h1 class="titulo">Angel Arturo <span>Freelance</span></h1>
+        <p class="titulo">Este es un texto del <span>titulo</span></p>
+    </div>
+    
+
+
+    
+
+    <div>
+        <h1 class="titulo main">Angel ArturoFreelance</h1>
+        
+    </div>
+
+    <div>
+        <p class="titulo">Este es un texto del titulo</p>
+    </div>
+
+    <img src="https://media.revistagq.com/photos/5ca5f06ef552a15f3e32e093/master/w_1126,c_limit/vestir_casual_hombre_3768.jpg" 
+    style="width: 100%; max-height: 100%;"></src>
+
+    <h1 style="font-size: 5vw">Angel ArturoFreelance</h1>
+
+    <div class="VM">
+        <video width="320" height="240" controls autoplay muted>
+            <source src="Phyton.mp4" type="video/mp4">
+            <source src="Phyton.ogg" type="audio/ogg">
+            Your browser does not support the audio element
+        </video>
+    </div>
+    
+    <div class="VM">
+        <audio controls autoplay muted>
+            <source src="Musicmp3.ogg" type="video/ogg">
+            <source src="Musicmp3.mp3" type="audio/mpeg">
+            Your browser does not support the audio element
+        </video>
+    </div>
+
+    <h1 class="la">Texto con linea arriba</h1>
+    <h2 class="ts">Texto con sombra</h2>
+    <h3 class=tl>Texto con linea en medio</h3>
+    <p class="tm">Texto en mayusculas</p>
+
+    <p>Fuente de texto</p>
+    
+
+    <h2 class="sub-titulo">bienvenido</h2>
+    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    
+    <p>texto 1</p>
+    <p class="ur">texto 2</p>
+
+    <p id="1"></p>
+    <script>
+        var d = new Date();
+        document.getElementById("1").innerHTML= d;
+
+        var d = new Date("October, 13, 2014, 11:13:00");
+        document.getElementById("1").innerHTML= d;
+
+        var d = new Date("2018, 13, 24, 31");
+        document.getElementById("1").innerHTML= d;
+    </script>
+
+ 
+    
+</body>
+</html>
+
